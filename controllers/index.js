@@ -157,3 +157,7 @@ document.getElementById('btnCapNhatThongTin').onclick = function(){
         console.log('error', err.response.data)
     })
 }
+
+function timKiemNguoiDung(){
+    console.log('Tìm kiếm');
+}
